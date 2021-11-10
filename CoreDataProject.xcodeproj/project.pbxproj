@@ -15,6 +15,8 @@
 		7B94D8B2273B6A5600D5A701 /* CoreDataProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7B94D8B0273B6A5600D5A701 /* CoreDataProject.xcdatamodeld */; };
 		7B94D8BA273B8D4400D5A701 /* Movie+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B94D8B8273B8D4400D5A701 /* Movie+CoreDataClass.swift */; };
 		7B94D8BB273B8D4400D5A701 /* Movie+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B94D8B9273B8D4400D5A701 /* Movie+CoreDataProperties.swift */; };
+		7B94D8BD273B8F7300D5A701 /* HashableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B94D8BC273B8F7300D5A701 /* HashableView.swift */; };
+		7B94D8BF273B913600D5A701 /* ConditionalSavingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B94D8BE273B913600D5A701 /* ConditionalSavingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		7B94D8B1273B6A5600D5A701 /* CoreDataProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataProject.xcdatamodel; sourceTree = "<group>"; };
 		7B94D8B8273B8D4400D5A701 /* Movie+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Movie+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
 		7B94D8B9273B8D4400D5A701 /* Movie+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Movie+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		7B94D8BC273B8F7300D5A701 /* HashableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashableView.swift; sourceTree = "<group>"; };
+		7B94D8BE273B913600D5A701 /* ConditionalSavingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalSavingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				7B94D8B9273B8D4400D5A701 /* Movie+CoreDataProperties.swift */,
 				7B94D8A5273B6A5500D5A701 /* CoreDataProjectApp.swift */,
 				7B94D8A7273B6A5500D5A701 /* ContentView.swift */,
+				7B94D8BC273B8F7300D5A701 /* HashableView.swift */,
+				7B94D8BE273B913600D5A701 /* ConditionalSavingView.swift */,
 				7B94D8A9273B6A5600D5A701 /* Assets.xcassets */,
 				7B94D8AE273B6A5600D5A701 /* Persistence.swift */,
 				7B94D8B0273B6A5600D5A701 /* CoreDataProject.xcdatamodeld */,
@@ -151,8 +157,10 @@
 			files = (
 				7B94D8AF273B6A5600D5A701 /* Persistence.swift in Sources */,
 				7B94D8A8273B6A5500D5A701 /* ContentView.swift in Sources */,
+				7B94D8BD273B8F7300D5A701 /* HashableView.swift in Sources */,
 				7B94D8B2273B6A5600D5A701 /* CoreDataProject.xcdatamodeld in Sources */,
 				7B94D8BA273B8D4400D5A701 /* Movie+CoreDataClass.swift in Sources */,
+				7B94D8BF273B913600D5A701 /* ConditionalSavingView.swift in Sources */,
 				7B94D8BB273B8D4400D5A701 /* Movie+CoreDataProperties.swift in Sources */,
 				7B94D8A6273B6A5500D5A701 /* CoreDataProjectApp.swift in Sources */,
 			);
