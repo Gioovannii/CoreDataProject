@@ -12,7 +12,9 @@ struct ConditionalSavingView: View {
     
     var body: some View {
         Button("Save") {
-            try? self.moc.save()
+            if self.moc.hasChanges {
+                try? self.moc.save()
+            }
         }
     }
 }
