@@ -20,7 +20,7 @@ struct FilteredList: View {
         }
     }
     
-    init(filter: String) {
+    init(filter: String, sortDecriptor: [NSSortDescriptor]) {
         fetchRequest = FetchRequest<Singer>(
             entity: Singer.entity(), sortDescriptors: [],
             predicate:NSPredicate(format: "lastName BEGINSWITH %@", filter))
