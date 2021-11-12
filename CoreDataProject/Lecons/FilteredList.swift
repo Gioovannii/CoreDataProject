@@ -22,9 +22,9 @@ struct FilteredList: View {
     
     init(filter: String, sortDecriptor: [NSSortDescriptor]) {
         fetchRequest = FetchRequest<Singer>(
-            entity: Singer.entity(), sortDescriptors: [],
-            predicate:NSPredicate(format: "lastName BEGINSWITH %@", filter))
-    } 
+            entity: Singer.entity(), sortDescriptors: sortDecriptor,
+            predicate: NSPredicate(format: "lastName BEGINSWITH %@", filter))
+    }
 }
 
 // MARK: - Want to go further
