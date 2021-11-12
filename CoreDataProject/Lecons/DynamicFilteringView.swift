@@ -13,11 +13,13 @@ struct DynamicFilteringView: View {
     
     var body: some View {
         VStack {
-            //FilteredList(filter: lastNameFilter)
-            
-            FilteredListUpgrade(filterKey: "lastName", filterValue: lastNameFilter) { (singer: Singer) in
-                Text("\(singer.wrappedFirstName) \(singer.wrappedLastName)")
-            }
+            FilteredList(filter: lastNameFilter, sortDecriptor: [
+                NSSortDescriptor(keyPath: \Singer.lastName, ascending: true)
+            ])
+     
+//            FilteredListUpgrade(filterKey: "lastName", filterValue: lastNameFilter) { (singer: Singer) in
+//                Text("\(singer.wrappedFirstName) \(singer.wrappedLastName)")
+//            }
             
             Button("Add Examples") {
                 let taylor = Singer(context: self.moc)
