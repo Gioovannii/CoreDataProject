@@ -29,7 +29,6 @@ struct FilteredList: View {
 
 // MARK: - Want to go further
 
-
 struct FilteredListUpgrade<T: NSManagedObject, Content: View>: View {
     var fetchRequest: FetchRequest<T>
     var singers: FetchedResults<T> {
